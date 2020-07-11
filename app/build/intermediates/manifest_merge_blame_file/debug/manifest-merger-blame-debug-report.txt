@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lakj.comspace.simpletextclient"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:9:5-67
+11-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:10:5-78
+12-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:12:5-81
+13-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:12:22-78
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:13:5-75
+14-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:13:22-72
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:14:5-80
+15-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:14:22-77
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:16:5-53:19
+21        android:allowBackup="true"
+21-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:17:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\7162e60636da360fd670aad70bf9109f\core-1.0.0\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@drawable/applogo"
+25-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:18:9-41
+26        android:label="@string/app_name"
+26-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:19:9-41
+27        android:testOnly="true"
+28        android:theme="@android:style/Theme.NoTitleBar" >
+28-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:20:9-56
+29        <activity
+29-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:21:9-24:20
+30            android:name="com.lakj.comspace.simpletextclient.SlimpleTextClientActivity"
+30-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:22:13-54
+31            android:label="@string/app_name" >
+31-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:23:13-45
+32        </activity>
+33        <activity
+33-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:25:9-33:20
+34            android:name="com.lakj.comspace.simpletextclient.VirtualWaitress"
+34-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:26:13-44
+35            android:label="@string/title_activity_virtual_waitress" >
+35-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:27:13-68
+36            <intent-filter>
+36-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:29:17-69
+37-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:31:17-77
+39-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.lakj.comspace.simpletextclient.Order_Type" >
+42-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:34:9-35:20
+42-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:34:19-45
+43        </activity>
+44        <activity android:name="com.lakj.comspace.simpletextclient.Starters" >
+44-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:36:9-37:20
+44-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:36:19-43
+45        </activity>
+46        <activity android:name="com.lakj.comspace.simpletextclient.Veg" >
+46-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:38:9-39:20
+46-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:38:19-38
+47        </activity>
+48        <activity android:name="com.lakj.comspace.simpletextclient.N_Veg" >
+48-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:40:9-41:20
+48-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:40:19-40
+49        </activity>
+50        <activity android:name="com.lakj.comspace.simpletextclient.Dessert" >
+50-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:42:9-43:20
+50-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:42:19-42
+51        </activity>
+52        <activity
+52-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:45:9-48:20
+53            android:name="com.lakj.comspace.simpletextclient.finalize_order"
+53-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:46:13-43
+54            android:label="@string/title_activity_finalize_order" >
+54-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:47:13-66
+55        </activity>
+56        <activity
+56-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:49:9-52:20
+57            android:name="com.lakj.comspace.simpletextclient.thankyou"
+57-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:50:13-37
+58            android:label="@string/title_activity_thankyou" >
+58-->C:\Users\Nidhi\Downloads\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:51:13-60
+59        </activity>
+60
+61        <service
+61-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:29:9-35:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:30:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:31:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
+66                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+66-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:33:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:34:17-82
+68            <meta-data
+68-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
+69                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+69-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+72                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+72-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+75                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+75-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+77        </service>
+78
+79        <receiver
+79-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+80            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+80-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+81            android:exported="true"
+81-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+82            android:permission="com.google.android.c2dm.permission.SEND" >
+82-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+83            <intent-filter>
+83-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+84                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+84-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+84-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+85            </intent-filter>
+86        </receiver>
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+95            android:authorities="com.lakj.comspace.simpletextclient.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+98
+99        <receiver
+99-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
+100            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+100-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
+101            android:enabled="true"
+101-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
+102            android:exported="false" >
+102-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
+103        </receiver>
+104
+105        <service
+105-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
+106            android:name="com.google.android.gms.measurement.AppMeasurementService"
+106-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
+107            android:enabled="true"
+107-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
+108            android:exported="false" />
+108-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
+109        <service
+109-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
+110            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+110-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
+111            android:enabled="true"
+111-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
+113            android:permission="android.permission.BIND_JOB_SERVICE" />
+113-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
+114
+115        <meta-data
+115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+116            android:name="com.google.android.gms.version"
+116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+117            android:value="@integer/google_play_services_version" />
+117-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nidhi\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+118    </application>
+119
+120</manifest>
